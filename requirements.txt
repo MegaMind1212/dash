@@ -1,5 +1,5 @@
-echo "Flask==2.3.3" > requirements.txt
-echo "folium==0.14.0" >> requirements.txt
-echo "pandas==2.0.3" >> requirements.txt
-echo "plotly==5.15.0" >> requirements.txt
-echo "flask_session==0.5.0" >> requirements.txt
+Flask==2.3.3
+folium==0.14.0
+pandas==2.0.3
+plotly==5.15.0
+flask_session==0.5.0
