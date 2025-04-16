@@ -3,11 +3,19 @@
   "builds": [
     {
       "src": "api/index.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "buildCommand": "./vercel-build.sh",
+        "includeFiles": ["wheels/*.whl"]
+      }
     },
     {
       "src": "api/worker.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "buildCommand": "./vercel-build.sh",
+        "includeFiles": ["wheels/*.whl"]
+      }
     }
   ],
   "routes": [
