@@ -1,5 +1,7 @@
-Flask==2.3.3
-flask-session==0.5.0
-folium==0.14.0
-pandas==1.5.0
-plotly==5.0.0
+
+flask
+flask-session
+pandas
+plotly
+folium
+gunicorn
